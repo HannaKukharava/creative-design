@@ -36,6 +36,7 @@ section {
     opacity: 0.1;
     text-shadow: 2rem 2rem 4rem #aaa;
 }
+
 /*End of Common Styles*/
 
 /*Main Section*/
@@ -344,6 +345,7 @@ section.team {
     height: 0.1rem;
     background-color: #fff;
 }
+
 /*End of Team Section*/
 
 
@@ -438,6 +440,7 @@ section.team {
     color: #444;
     margin-top: 5rem;
 }
+
 /*End of Footer*/
 
 
@@ -460,3 +463,181 @@ section.team {
 .scroll-up-btn:hover {
     background-color: rgba(231, 42, 42, 0.8);
 }
+
+/*Responsive*/
+@media (max-width: 1400px) {
+    .floating-bg {
+        top: -120vw;
+    }
+
+    .home-heading {
+        font-size: 6rem;
+        top: 25vw;
+        width: 70rem;
+    }
+
+    .navbar-link {
+        font-size: 2rem;
+    }
+
+    .logo {
+        top: 75%;
+    }
+
+    .logo i {
+        font-size: 10rem;
+    }
+
+    .section-heading {
+        font-size: 8rem;
+        margin-bottom: 10rem;
+    }
+
+    .customers, .team {
+        height: auto;
+    }
+
+    .customers-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .customer, .team-member {
+        margin: 5rem 10rem;
+    }
+
+    .team-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .form-container {
+        height: 60%;
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    .contact-form {
+        transform: translateY(0);
+    }
+
+    .contact-form:hover {
+        transform: translateY(-1rem);
+    }
+
+    .copyright {
+        margin: 5rem 0 4rem 0;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .floating-bg {
+        top: -110vw;
+    }
+
+    .home-heading {
+        font-size: 5rem;
+        top: 30vw;
+        width: 60rem;
+    }
+
+    .logo i {
+        font-size: 9rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .floating-bg {
+        top: -100vw;
+    }
+
+    .home-heading {
+        top: 40vw;
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .customer,
+    .team-member {
+        margin: 5rem 0;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 50%;
+    }
+
+    .floating-bg {
+        top: -90vw;
+    }
+
+    .home-heading {
+        top: 48vw;
+    }
+
+    .customer {
+        height: 60vw;
+    }
+
+    .section-heading {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 45%;
+    }
+
+    .floating-bg {
+        top: -70vw;
+    }
+
+    .home-heading {
+        top: 65vw;
+        width: 42rem;
+        font-size: 3.5rem;
+    }
+
+    .section-heading {
+        font-size: 6rem;
+    }
+
+    .customer {
+        height: 75vw;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .form-container {
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .contact-form {
+        box-shadow: 1rem 1rem 2rem #aaa;
+    }
+
+    .contact-form:hover {
+        box-shadow: 2rem 2rem 3rem #aaa;
+    }
+
+    .copyright {
+        font-size: 1.8rem;
+        margin: 5rem;
+        text-align: center;
+    }
+
+    .scroll-up-btn {
+        bottom: 2rem;
+        right: 2rem;
+    }
+}
+
+/*End of Responsive*/
