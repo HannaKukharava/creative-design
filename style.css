@@ -151,7 +151,7 @@ section.customers {
 
 .customer {
     width: 35rem;
-    height: 55rem;
+    height: 50rem;
     background-color: #eee;
     display: flex;
     flex-direction: column;
@@ -465,6 +465,28 @@ section.team {
 }
 
 /*Responsive*/
+@media (max-width: 1700px) {
+    .floating-bg {
+        top: -125vw;
+    }
+
+    .home-heading {
+        top: 20vw;
+    }
+
+    .navbar-link {
+        font-size: 2rem;
+    }
+
+    .logo {
+        top: 80%;
+    }
+
+    .logo i {
+        font-size: 10rem;
+    }
+}
+
 @media (max-width: 1400px) {
     .floating-bg {
         top: -120vw;
@@ -476,16 +498,8 @@ section.team {
         width: 70rem;
     }
 
-    .navbar-link {
-        font-size: 2rem;
-    }
-
     .logo {
         top: 75%;
-    }
-
-    .logo i {
-        font-size: 10rem;
     }
 
     .section-heading {
@@ -580,7 +594,7 @@ section.team {
     }
 
     .customer {
-        height: 60vw;
+        height: 55vw;
     }
 
     .section-heading {
@@ -608,7 +622,7 @@ section.team {
     }
 
     .customer {
-        height: 75vw;
+        height: 70vw;
     }
 
     .footer {
